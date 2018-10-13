@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--My CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <title>Hogwarts Hangman Game</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Hogwarts Word Guess</h1>
+      <p class="lead">A Wizard's Game for Muggles</p>
+      <button type="button" onclick=startGame(); class="btn btn-secondary btn-lg" id="start_button">Start a New Game</button>
+
+    </div>
+  </div>
+
+  <div class="container gameBody">
+    <div class="row">
+      <div class="instructions col-md-3 border border-secondary">
+        <p>
+          Press start to begin and type a letter to guess! Refresh to reset Wins!
+        </p>
+      </div>
+      <div class="rightAnswers col-md-9 border border-secondary">
+
+          Guess the word or phrase:
+          <br>
+          <div id="right_answers">
+              _ _ _ _ _ _ _
+          </div>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="lives col-md-3 border border-secondary">
+        Remaining Lives:
+        <div id="lives">
+          10
+        </div>
+      </div>
+      <div class="lives col-md-8 border border-secondary">
+        Wrong Letters
+        <div id="wrongLetters">
+
+        </div>
+      </div>
+      <div class="lives col-md-1 border border-secondary">
+        Wins
+        <div id="wins">
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!--My JS-->
+  <script src="assets/javascript/game.js"></script>
+
+  <!--Bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+.jumbotron{
+  background-image: url("../images/star_2m.jpg");
+  color: white;
+}
+
+.btn{
+  float: right;
+}
+
+#monitor{
+  margin-left: 40%;
+}
+
+
+body{
+  background-image: url("../images/ep_naturalblack.png");
+}
+
+.gameBody{
+  background-color: white;
+}
+
+
+.rightAnswers{
+  height: 100px;
+}
+
+.wrongAnswers{
+  height: 100px;
+}
+
+#right_answers{
+  
+}
